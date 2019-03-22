@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700');
+
+body {
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+h1 {
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+body, html {
+  max-width: 100%;
+}
+img {
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+}
+
+.image-fill {
+
+  position: absolute;
+  z-index: 0;
+
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+}
+.wrapper {
+  .testInfo {
+    p {
+
+    }
+    span {
+
+    }
+  }
+  .testInfo__index {
+
+  }
+  .testInfo__test {
+color: red;
+  }
+}
+.wrapper .testInfo p {
+
+}
+.wrapper .testInfo span {
+  
+}
+.testInfo__index p {
+
+}
+.wrapper .testInfo__test p {
+
+}
+
+@import "scss/grid";
+@import "scss/helpers";
+@import "scss/wrapper";
+@import "scss/button";
+
+@import "scss/typography";
+
+
+@import '~@sfem/css-sugars/src/sugars';

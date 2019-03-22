@@ -1,0 +1,42 @@
+
+.wrapper {
+  .testInfo {
+    p {
+      color: red;
+    }
+    span {
+      color: blue;
+    }
+  }
+  .testInfo__index {
+
+  }
+  .testInfo__test {
+    
+  }
+}
+
+
+
+.container {
+  
+  @include box(1200px, 200px);
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+
+    @include box(768px, 100px);
+    
+  }
+
+  @media all and (max-width: 768px) {
+    max-width: 100%;
+    height: 100%;
+    
+  }
+
+  @media (min-width: 1025px) and (max-width: 1200px) {
+    max-width: 1025px;
+    height: 1px;
+    
+  }
+}

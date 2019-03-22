@@ -1,0 +1,24 @@
+.button {
+  display: block;
+  padding: 10px;
+  border: 1px solid $button-bg-color;
+  background: $button-bg-color;
+  color: $color-white;
+  font: $text-body;
+  @include border-radius(5px);
+  display: flex;
+  &:hover {
+    color: $button-bg-color;
+    background: $color-white;
+  }
+  &__green {
+    background: $color-green;
+    border-color: $color-green;
+
+
+    &:hover {
+      background: $color-white;
+      color: $color-green;
+    }
+  }
+}
