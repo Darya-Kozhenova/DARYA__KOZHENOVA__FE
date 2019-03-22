@@ -38,7 +38,7 @@ var booleanAleret;
 booleanAleret = true;
 console.log (typeof booleanAleret);
 var objAlert;
-objAlert = {name: 'Darya', age: 26};
+objAlert = {name: 'Dasha', age: 26};
 console.log (typeof objAlert);
 console.log (x > y);
 console.log (nullAlert > y);
