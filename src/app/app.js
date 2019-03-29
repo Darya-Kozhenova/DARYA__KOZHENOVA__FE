@@ -1,6 +1,5 @@
+import $ from 'jquery';
 import './app.scss';
-import './components'
-
-import $ from 'jquery'
+import './components';
 
 window.jQuery = $;
