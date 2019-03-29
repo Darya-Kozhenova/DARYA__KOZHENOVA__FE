@@ -31,3 +31,9 @@ function findHref() {
     console.log(mylink);
 }
 findHref();
+
+function findLink() {
+    var newlink = document.querySelector('[href*="./test.hml"]').textContent;
+    console.log(newlink);
+}
+findLink();
