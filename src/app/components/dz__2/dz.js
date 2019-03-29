@@ -15,7 +15,9 @@ function findByTag() {
 findByTag();
 
 function classNotId()  {
-    console.log($('.nav_right'));
+    var idelem = document.querySelectorAll('id');
+    var classelem  = document.getElementsByClassName('nav_right');
+
 }
 classNotId ();
 
@@ -25,6 +27,7 @@ function tagByClass() {
 tagByClass();
 
 function findHref() {
-
+    var mylink = document.getElementById('nav_link').textContent;
+    console.log(mylink);
 }
 findHref();
