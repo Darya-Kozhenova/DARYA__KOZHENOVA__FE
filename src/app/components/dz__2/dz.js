@@ -15,14 +15,16 @@ function findByTag() {
 findByTag();
 
 function classNotId()  {
-    var idelem = document.querySelectorAll('id');
+    var idelem = document.querySelectorAll('[id]');
     var classelem  = document.getElementsByClassName('nav_right');
+    console.log(classelem);
 
 }
 classNotId ();
 
 function tagByClass() {
-
+    var tags = document.getElementsByTagName('*');
+    console.log(tags.classList.contains('test'));
 }
 tagByClass();
 
