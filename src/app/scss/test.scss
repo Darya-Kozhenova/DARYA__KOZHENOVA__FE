@@ -1,0 +1,54 @@
+.imgTest {
+    display: flex;
+    background-color: aquamarine;
+    justify-content: space-between;
+    align-self: flex-end;
+    margin-top: 40px;
+
+    a {
+        color: goldenrod;
+        font-size: 42px;
+        background-color: beige;
+        border: 1px solid goldenrod;
+        border-radius: 30px;
+        padding: 5px 20px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        z-index: 2;
+    }
+        
+}
+.imgTest1,
+.imgTest2,
+.imgTest3 {
+    height: 400px;
+    width: 400px;
+    border: 2px solid grey;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    z-index: 1;
+}
+
+#placeD {
+    width: 200px;
+    height: 200px;
+    border: 3px solid palevioletred;
+    background-color: lightgoldenrodyellow;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+#donut {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    -webkit-transition: all 1s;
+      -moz-transition: all 1s;
+      -o-transition: all 1s;
+      -ms-transition: all 1s;
+      transition: all 1s;
+}

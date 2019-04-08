@@ -1,4 +1,4 @@
-var alertGreeting;
+/*var alertGreeting;
 alertGreeting = 'Hello, WORLD!';
 alert (alertGreeting);
 var consoleAlert;
@@ -49,4 +49,4 @@ console.log (0 == false);
 console.log (0 != false);
 console.log (0 !== false);
 console.log (null == undefined);
-console.log (undefined == undefined);
+console.log (undefined == undefined);*/
