@@ -1,16 +1,9 @@
 .outer-block {
-    margin-left: 100px;
-    height: 300px;
-    width: 1000px;
+    margin-left:  50px;
+    height: 100vh;
     
 }
-.cont {
-    display: flex;
-    justify-content: space-around;
+body {
+    background: burlywood;
 }
-.slider-nav {
-    img {
-        max-height: 100px;
-        width: 100%;
-    }
-}
+
