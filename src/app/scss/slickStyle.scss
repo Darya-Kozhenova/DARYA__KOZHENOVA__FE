@@ -1,0 +1,16 @@
+.outer-block {
+    margin-left: 100px;
+    height: 300px;
+    width: 1000px;
+    
+}
+.cont {
+    display: flex;
+    justify-content: space-around;
+}
+.slider-nav {
+    img {
+        max-height: 100px;
+        width: 100%;
+    }
+}
