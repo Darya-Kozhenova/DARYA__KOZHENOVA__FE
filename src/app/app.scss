@@ -60,13 +60,18 @@ color: red;
 .wrapper .testInfo__test p {
 
 }
-
 @import "scss/grid";
 @import "scss/helpers";
 @import "scss/wrapper";
 @import "scss/button";
+@import "scss/slickStyle";
+@import "scss/modalGal";
 
 @import "scss/typography";
 
-
 @import '~@sfem/css-sugars/src/sugars';
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+@import "~magnific-popup/src/css/main.scss";
+@import "~magnific-popup/src/css/_settings.scss";
+@import "~magnific-popup/dist/magnific-popup.css";
