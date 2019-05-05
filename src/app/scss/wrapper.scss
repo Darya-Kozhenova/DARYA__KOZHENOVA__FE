@@ -20,7 +20,7 @@
 
 .container {
   
-  @include box(1200px, 200px);
+  /*@include box(1200px, 200px);
 
   @media (min-width: 768px) and (max-width: 1024px) {
 
@@ -38,5 +38,5 @@
     max-width: 1025px;
     height: 1px;
     
-  }
+  }*/
 }

@@ -65,8 +65,10 @@ color: red;
 @import "scss/helpers";
 @import "scss/wrapper";
 @import "scss/button";
+@import "scss/newsList";
 
 @import "scss/typography";
+@import "~bootstrap/scss/bootstrap.scss";
 
 
 @import '~@sfem/css-sugars/src/sugars';
