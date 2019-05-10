@@ -1,1 +1,2 @@
-import './navibar/navigation.js'
+import './navibar/navigation.js';
+import './slider/slides.js';
