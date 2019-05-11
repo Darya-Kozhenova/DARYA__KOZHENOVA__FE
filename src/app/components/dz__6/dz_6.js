@@ -1,5 +1,4 @@
 import $ from 'jquery'
-import 'bootstrap' 
 
 $(document).ready(function(){
     $.getJSON('https://jsonplaceholder.typicode.com/posts', function(data) {
