@@ -1,0 +1,36 @@
+#room1 {
+    background-image: url(../src/static/img/111.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    min-height: 450px;
+}
+#room2 {
+    background-image: url(../src/static/img/112.jpg);
+    background-size: cover;
+    background-position: center center;
+    min-height: 450px;
+}
+#kitchen {
+    background-image: url(../src/static/img/113.jpg);
+    background-size: cover;
+    background-position: center center;
+    min-height: 450px;
+}
+#balcony {
+    background-image: url(../src/static/img/114.jpg);
+    background-size: cover;
+    background-position: center center;
+    min-height: 450px;
+}
+#bath {
+    background-image: url(../src/static/img/115.jpg);
+    background-size: cover;
+    background-position: center center;
+    min-height: 450px;
+}
+.gallery-for {
+    min-height: 450px;
+}
+.about {
+    min-height: 100vh;
+}

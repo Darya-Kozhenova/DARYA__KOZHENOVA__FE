@@ -1,0 +1,28 @@
+.infrastr {
+	display: flex;
+    justify-content: center;
+    background: #F1F1F3;
+    &__items {
+        display: flex;
+	    flex-wrap: wrap;
+    }
+    &__items--pic {
+        width: 50%;
+        flex-direction: row;
+        background: url(../src/static/img/115.jpg);
+        background-size: cover;
+        height: 40vh;
+    }
+    &__items--text {
+        background-color: #F1F1F3;
+        width: 50%;
+        flex-direction: row;
+        height: 40vh;
+    }
+    &__descr {
+        text-align: center;
+        margin-bottom: 40px;
+        padding-top: 25px;
+    }
+    
+}
