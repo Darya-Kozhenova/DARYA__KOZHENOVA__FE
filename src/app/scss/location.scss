@@ -1,0 +1,29 @@
+.location {
+    min-height: 100vh;
+    &__descr {
+        text-align: center;
+        padding: 50px 0 50px;
+    }
+    &__wrapper {
+        display: flex;
+        
+    }
+    &__wrapper--left,
+    &__wrapper--right {
+        width: 50%;
+        margin-top: 25px;
+        background: #F1F1F3;
+        height: 400px;
+        align-self: center;
+    }
+    &__wrapper--left {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        align-items: flex-start;
+        justify-content: center;
+        width: 50%;
+        padding-left: 50px;
+    }
+}
