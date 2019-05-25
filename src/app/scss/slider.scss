@@ -1,36 +1,50 @@
 #room1 {
-    background-image: url(../src/static/img/111.jpg);
+    background-image: url(../src/static/img/120.jpg);
     background-size: cover;
     background-position: center bottom;
-    min-height: 450px;
+    min-height: 550px;
 }
 #room2 {
+    background-image: url(../src/static/img/116.jpg);
+    background-size: cover;
+    background-position: center center;
+    min-height: 550px;
+}
+#kitchen {
     background-image: url(../src/static/img/112.jpg);
     background-size: cover;
     background-position: center center;
-    min-height: 450px;
-}
-#kitchen {
-    background-image: url(../src/static/img/113.jpg);
-    background-size: cover;
-    background-position: center center;
-    min-height: 450px;
+    min-height: 550px;
 }
 #balcony {
-    background-image: url(../src/static/img/114.jpg);
+    background-image: url(../src/static/img/117.jpg);
     background-size: cover;
     background-position: center center;
-    min-height: 450px;
+    min-height: 550px;
 }
 #bath {
-    background-image: url(../src/static/img/115.jpg);
+    background-image: url(../src/static/img/121.jpg);
     background-size: cover;
     background-position: center center;
-    min-height: 450px;
+    min-height: 550px;
 }
 .gallery-for {
-    min-height: 450px;
+    min-height: 550px;
 }
 .about {
     min-height: 100vh;
+    text-align: center;
+    padding-bottom: 50px;
+    &__desc {
+        padding: 50px 0 50px;
+    }
+   
+}
+.slick-dots li button:before {
+    font-size: 20px;
+    line-height: 32px;
+}
+.slick-prev,
+.slick-next {
+    
 }
