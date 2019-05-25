@@ -1,0 +1,81 @@
+.contacts {
+    min-height: 100vh;
+    text-align: center;
+    padding: 50px 0 0px;
+    
+    &__desc p {
+        font-size: 24px;
+        padding: 20px 0 20px;
+    }
+    &__item {
+        display: flex;
+        height: 250px;
+        border-top: 1px solid grey;
+       
+        .contacts__item--left {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            flex: 1 1 50%;
+            align-items: flex-start;
+            font-size: 22px;
+            font-weight: bold;
+            line-height: 42px;
+            padding-left: 25px;
+
+        .contacts__item--messanger {
+            display: flex;
+            height: 50px;
+            width: 50%;
+            justify-content: center;
+
+            img {
+                width: 40px;
+                height: 40px;
+            }
+            a {
+                margin: 10px;
+            }
+            }
+        }
+        .contacts__item--right {
+            display: flex;
+            flex-direction: column;
+            flex: 1 1 50%;
+            justify-content: center;
+           
+        }
+        .contacts__item--bookingcom img {
+            width: auto;
+            height: 50px;
+            margin: 10px 0;
+        }
+        .contacts__item--airbnb img{
+            width: auto;
+            height: 50px;
+            margin: 10px 0; 
+        }
+    
+    }
+    
+    &__footer {
+        min-height: 30vh;
+        background: #171717;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        p {
+            font-size: 20px;
+            color: #5E5E5E;
+        }
+
+        img {
+            height: 15%;
+            width: 15%;
+        }
+        
+    }
+}
+
