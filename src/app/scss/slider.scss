@@ -45,6 +45,18 @@
     line-height: 32px;
 }
 .slick-prev,
-.slick-next {
-    
+.slick-prev:hover {
+   background-image: url(../src/static/img/icons/back.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.slick-next,
+.slick-next:hover {
+    background-image: url(../src/static/img/icons/next.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+.slick-prev:before,
+.slick-next:before { 
+    content: none;
 }

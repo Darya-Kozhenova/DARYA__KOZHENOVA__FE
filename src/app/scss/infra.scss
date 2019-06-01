@@ -1,7 +1,9 @@
 .infrastr {
 	display: flex;
     justify-content: center;
-    background: #F1F1F3;
+    margin-bottom: 25px;
+    overflow: hidden;
+    
     &__items {
         display: flex;
 	    flex-wrap: wrap;
@@ -9,19 +11,81 @@
     &__items--pic {
         width: 50%;
         flex-direction: row;
-        background: url(../src/static/img/115.jpg);
-        background-size: cover;
-        height: 40vh;
+        height: 50vh;
+        
+    }
+    #dinamo {
+        display: none;
+    }
+    #cafe {
+        display: none;
     }
     &__items--text {
-        background-color: #F1F1F3;
+       
         width: 50%;
         flex-direction: row;
-        height: 40vh;
+        height: 50vh;
+        padding: 30px 20px;
+
+        p:first-child {
+            font-size: 22px;
+            font-style: italic;
+            text-align: center;
+            }
     }
+    
     &__descr {
         text-align: center;
         padding: 50px 0 50px;
     }
-    
+    &__rw {
+        background: url(../src/static/img/blog/station.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    &__sub {
+        background: url(../src/static/img/blog/avenue.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    &__dinamo {
+        background: url(../src/static/img/blog/dinamo.jpeg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    &__cafe {
+        background: url(../src/static/img/blog/centerminsk.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+}
+@media (max-width: 992px) {
+    .infrastr__items {
+        display: flex;
+        flex-direction: column;
+    }
+    .infrastr__items--pic,
+    .infrastr__items--text {
+        width: 100%;
+        text-align: center;
+
+        p {
+            font-size: 18px;
+        }
+        
+    }
+    .infrastr__dinamo,
+    .infrastr__cafe {
+        display: none;
+    }
+    .infrastr__items #dinamo {
+        display: block;
+    }
+    .infrastr__items #cafe {
+        display: block;
+    }
 }
