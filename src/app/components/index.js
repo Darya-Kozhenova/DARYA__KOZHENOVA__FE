@@ -1,1 +1,1 @@
-import './dz__1/dz.js'
+import './pyth/test.js'
